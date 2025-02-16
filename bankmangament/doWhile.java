@@ -1,14 +1,14 @@
 package bankmangament;
 
-public class loopingSystem {
+public class doWhile {
     public static void main(String[] args) {
-        int a=15;
-        while (a<50) {
-            if (a%9==0) {
+        int a=100;
+        do{
+            if () {
                 System.out.println(a);
+            
             }
-            a++;
-        }
+            a--;
+        }while(a>20);
     }
-    
 }
